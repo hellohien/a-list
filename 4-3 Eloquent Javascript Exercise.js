@@ -57,7 +57,7 @@ function nthRecursive(list,num){
       return list.value;
     }
     else{
-        //recurses through the current list with rest pointing to the next list and num decrementing 
+        //recurses through the current list with rest pointing to the next list and num decrementing by 1
       	//exits out of if statement when num == 0
         return nth(list.rest,num-1);
     }
@@ -66,7 +66,7 @@ function nthRecursive(list,num){
   
 console.log(arrayToList([10, 20]));
 // → {value: 10, rest: {value: 20, rest: null}}
-  console.log(listToArray(arrayToList([10, 20, 30])));
+console.log(listToArray(arrayToList([10, 20, 30])));
 // → [10, 20, 30]
 console.log(prepend(10, prepend(20, null)));
 // → {value: 10, rest: {value: 20, rest: null}}
