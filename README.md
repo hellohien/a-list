@@ -1,6 +1,6 @@
 # a-list
 
-A <b>Linked List</b> is a linear data structure in which each element points to the next element. Unlike array, linked list elements are not indexed, therefore in order to get to the last element, you have to start with the head and work your way through.
+A <b>Linked List</b> is a linear data structure in which each element points to the next element. Unlike array, linked list elements are not indexed, therefore in order to get to the last element of a list, you have to start with the head and work your way through.
 
 ![alt text](https://www.educative.io/api/edpresso/shot/5077575695073280/image/5192456339456000)
 
