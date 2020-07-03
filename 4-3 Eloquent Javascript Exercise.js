@@ -59,7 +59,7 @@ function nthRecursive(list,num){
     else{
         //recurses through the current list with rest pointing to the next list and num decrementing by 1
       	//exits out of if statement when num == 0
-        return nth(list.rest,num-1);
+        return nthRecursive(list.rest,num-1);
     }
       
 }
